@@ -90,6 +90,8 @@ plugins=(
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
+# set and export NVM_DIR to be the directory where you installed nvm.
+export NVM_DIR="$HOME/.nvm"
 
 source $ZSH/oh-my-zsh.sh
 
